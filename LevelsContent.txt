@@ -1,5 +1,5 @@
 {
-	"version": "0.1.14",
+	"version": "0.1.15",
 	"chapters": [
 		{
 			"number": 0,
@@ -9,35 +9,35 @@
 					"design": {
 						"enemies": [
 							{
-								"objectIndices": [ 0, 0, 1, 5 ],
+								"objectIndices": [ 0, 0, 0, 0, 0],
 								"nextWaveInterval": 10.0
 							},
 							{
-								"objectIndices": [ 0, 5, 0, 1, 2 ],
+								"objectIndices": [ 0, 0, 0, 0, 0, 0, 1],
 								"nextWaveInterval": 10.0
 							},
 							{
-								"objectIndices": [ 0, 1, 1, 6, 0, 0, 0, 2 ],
+								"objectIndices": [ 0, 1, 1, 0, 0, 0, 0, 0 ],
 								"nextWaveInterval": 7.0
 							},
 							{
-								"objectIndices": [ 2, 2, 2, 1, 7, 6 ],
+								"objectIndices": [ 2, 0, 0, 1, 1, 0, 0, 0, 0, 1 ],
 								"nextWaveInterval": 10.0
 							},
 							{
-								"objectIndices": [ 0, 0, 7, 1, 8, 2, 2 ],
+								"objectIndices": [ 0, 0, 0, 1, 2, 2, 0, 0, 0, 2, 2 ],
 								"nextWaveInterval": 20.0
 							},
 							{
-								"objectIndices": [ 1, 1, 1, 6, 8, 0, 2, 8, 2 ],
+								"objectIndices": [ 1, 1, 1, 3, 2, 0, 2, 0, 0, 0, 2 ],
 								"nextWaveInterval": 5.0
 							},
 							{
-								"objectIndices": [ 0, 1, 7, 1, 0, 1, 0, 9, 0, 2 ],
+								"objectIndices": [ 0, 1, 2, 1, 0, 1, 0, 3, 0, 2 ],
 								"nextWaveInterval": 10.0
 							},
 							{
-								"objectIndices": [ 0, 0, 0, 9, 0, 0, 0, 9, 0, 0, 0 ],
+								"objectIndices": [ 0, 0, 0, 4, 0, 0, 0, 3, 0, 0, 0 ],
 								"nextWaveInterval": 10.0
 							},
 							{
@@ -57,16 +57,8 @@
 								"nextWaveInterval": 30.0
 							},
 							{
-								"objectIndices": [ 0, 0, 2, 2, 3, 2, 1, 1, 2, 4, 0, 3, 1  ],
+								"objectIndices": [ 0, 0, 2, 2, 3, 2, 1, 0, 0, 0,1, 2, 4, 4, 0, 3, 1 ],
 								"nextWaveInterval": 15.0
-							},
-							{
-								"objectIndices": [ 0, 0, 1, 0, 1, 1, 1, 1, 4, 0, 3, 0, 0, 0, 1, 0, 4 ],
-								"nextWaveInterval": 20.0
-							},
-							{
-								"objectIndices": [ 1, 1, 4, 4, 1, 1, 2, 0, 1, 0, 2, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0 ],
-								"nextWaveInterval": 20.0
 							}
 						],
 						"obstacles": [
